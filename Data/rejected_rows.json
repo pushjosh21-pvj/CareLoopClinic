@@ -34,23 +34,6 @@
     "error": "Age is blank"
   },
   {
-    "appointment_id": "A0077",
-    "patient_id": "P114",
-    "clinic_id": "C08",
-    "booked_on": "2025-05-27",
-    "appt_date": "2025-06-02",
-    "age": "0",
-    "gender": "M",
-    "distance_km": "0.9",
-    "fee_inr": "750",
-    "booking_channel": "App",
-    "visit_type": "Consultation",
-    "reminder_sent": "Yes",
-    "prior_no_shows": "0",
-    "status": "Attended",
-    "error": "Age is zero or negative"
-  },
-  {
     "appointment_id": "A0105",
     "patient_id": "P487",
     "clinic_id": "C08",
@@ -272,40 +255,6 @@
     "error": "distance_km is blank"
   },
   {
-    "appointment_id": "A0522",
-    "patient_id": "P272",
-    "clinic_id": "C07",
-    "booked_on": "2025-06-09",
-    "appt_date": "2025-06-23",
-    "age": "150",
-    "gender": "F",
-    "distance_km": "2.5",
-    "fee_inr": "650",
-    "booking_channel": "Phone",
-    "visit_type": "Consultation",
-    "reminder_sent": "Yes",
-    "prior_no_shows": "2",
-    "status": "Attended",
-    "error": "Age can not be greater than 110"
-  },
-  {
-    "appointment_id": "A0576",
-    "patient_id": "P441",
-    "clinic_id": "C03",
-    "booked_on": "2025-03-15",
-    "appt_date": "2025-03-22",
-    "age": "-4",
-    "gender": "F",
-    "distance_km": "24.2",
-    "fee_inr": "750",
-    "booking_channel": "Walk-in",
-    "visit_type": "Consultation",
-    "reminder_sent": "No",
-    "prior_no_shows": "1",
-    "status": "No-Show",
-    "error": "Age is zero or negative"
-  },
-  {
     "appointment_id": "A0587",
     "patient_id": "P253",
     "clinic_id": "C05",
@@ -493,23 +442,6 @@
     "error": "Age is blank"
   },
   {
-    "appointment_id": "A0781",
-    "patient_id": "P056",
-    "clinic_id": "C03",
-    "booked_on": "2025-03-14",
-    "appt_date": "2025-04-15",
-    "age": "250",
-    "gender": "M",
-    "distance_km": "14.7",
-    "fee_inr": "750",
-    "booking_channel": "Phone",
-    "visit_type": "Consultation",
-    "reminder_sent": "No",
-    "prior_no_shows": "2",
-    "status": "No-Show",
-    "error": "Age can not be greater than 110"
-  },
-  {
     "appointment_id": "A0813",
     "patient_id": "P013",
     "clinic_id": "C07",
@@ -559,23 +491,6 @@
     "prior_no_shows": "1",
     "status": "No-Show",
     "error": "distance_km is blank"
-  },
-  {
-    "appointment_id": "A0878",
-    "patient_id": "P003",
-    "clinic_id": "C04",
-    "booked_on": "2025-03-07",
-    "appt_date": "2025-03-08",
-    "age": "199",
-    "gender": "F",
-    "distance_km": "17.4",
-    "fee_inr": "750",
-    "booking_channel": "Phone",
-    "visit_type": "Consultation",
-    "reminder_sent": "No",
-    "prior_no_shows": "2",
-    "status": "No-Show",
-    "error": "Age can not be greater than 110"
   },
   {
     "appointment_id": "A0933",

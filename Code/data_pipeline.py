@@ -9,10 +9,10 @@ def parse_row(row):
     print('age', row['age'])
     if row['age'].strip() == "" or row['age'] is None:
         raise ValueError("Age is blank")
-    elif int(row['age']) <= 0:
-        raise ValueError("Age is zero or negative")
-    elif int(row['age']) > 110:
-        raise ValueError("Age can not be greater than 110")
+    # elif int(row['age']) <= 0:
+    #     raise ValueError("Age is zero or negative")
+    # elif int(row['age']) > 110:
+    #     raise ValueError("Age can not be greater than 110")
     elif row['fee_inr'].strip() == '' or row['fee_inr'] is None:
         raise ValueError("fee_inr is blank")
     elif row['prior_no_shows'].strip() == '' or row['prior_no_shows'] is None:
