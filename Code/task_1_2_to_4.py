@@ -88,3 +88,19 @@ print("No of appoints with lead time more than 2 weeks ", mask.sum())
 print(f"Share of such appointments are { mask.mean():.2%}")
 Z = (X - np.mean(X)) / np.std(X)
 print('The rows is z score > 2', len(np.absolute(Z) > 2))
+
+#task 1.6
+df = df.sort_values('appointment_id')
+df['appt_date'] = df['appt_date'].dt.strftime("%Y-%m-%d")
+df['booked_on'] = df['booked_on'].dt.strftime("%Y-%m-%d")
+desired_cols = [
+        "appointment_id","patient_id", "clinic_id", 
+        "booked_on", "appt_date", "age", "gender", 
+        "distance_km", "fee_inr", "booking_channel", 
+        "visit_type", "reminder_sent", "prior_no_shows", 
+        "status", "lead_days", "no_show"
+        ]
+
+df = df[desired_cols]
+df.to_csv("../Data/appointments_clean.csv",index=False) 
+
