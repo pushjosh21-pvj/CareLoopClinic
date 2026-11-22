@@ -80,7 +80,7 @@ and, without loops, compute: (a) the mean of each column (axis=0);
 and the count of rows with |z| > 2.
 """
 df["lead_days"] = (df["appt_date"] - df["booked_on"]).dt.days
-df["no_show"] = np.where(df["status"] == "No-Show", 0, 1)
+df["no_show"] = np.where(df["status"] == "No-Show", 1, 0)
 X = df[["age", "distance_km", "fee_inr", "lead_days", "no_show"]].to_numpy()
 print("mean of each columns is ", np.mean(X, axis=0))
 mask = (X[:, 3] >= 14) & (X[:,4] == 1)
